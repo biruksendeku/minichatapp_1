@@ -1,0 +1,18 @@
+{
+  "name": "minichatapp_1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "DevYay",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
